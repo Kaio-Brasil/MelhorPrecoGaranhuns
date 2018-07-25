@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search_busca"
+        android:title="@string/buscar_por_produto"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_max"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/maior_pre"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_min"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/menor_pre"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_ordem_alfabetica"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:title="@string/ordem_alfab"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_limpar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/limpar"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>
